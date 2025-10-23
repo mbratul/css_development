@@ -46,7 +46,9 @@ body {
   flex-wrap: wrap;
   align-content: center;
 }
-.item {
+
+.item,
+.item2 {
   width: 200px;
   height: 50px;
   margin: 5px;
@@ -59,4 +61,14 @@ h1 {
   font-size: 16px;
   color: #444444;
   text-align: center;
+}
+.flex_item_order .item2 {
+  order: 1;
+}
+
+.flex_grow .item2 {
+  flex-grow: 1;
+}
+.flex_shrink .item2 {
+  flex-shrink: 4;
 }
