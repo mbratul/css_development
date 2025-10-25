@@ -72,3 +72,19 @@ h1 {
 .flex_shrink .item2 {
   flex-shrink: 4;
 }
+.flex_basis .item2 {
+  flex-basis: 100px;
+}
+.flex .item {
+  flex: 0 1 auto;
+}
+.align_self {
+  height: 300px;
+}
+.align_self .item2 {
+  align-self: flex-end;
+}
+
+.align_self .item {
+  align-self: flex-start;
+}
