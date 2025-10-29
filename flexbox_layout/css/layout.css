@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 2px;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 24px;
+  color: white;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.flex_header {
+  background-color: #5070b5;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.flex_main {
+  display: flex;
+  flex: 1;
+}
+.flex_nav {
+  background-color: #b95f21;
+  padding-top: 3rem;
+  flex: 1 1 5rem;
+}
+.flex_article {
+  background-color: #81a43c;
+  padding-top: 3rem;
+  flex: 3 3;
+}
+.flex_aside {
+  background-color: #b95f21;
+  padding-top: 3rem;
+  flex: 1 1 5rem;
+}
+.flex_footer {
+  background-color: #5070b5;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media all and (max-width: 540px) {
+  .flex_main {
+    flex-direction: column;
+  }
+}
