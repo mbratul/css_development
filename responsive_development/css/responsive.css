@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  header {
+    padding-bottom: 20px;
+  }
+  header .branding,
+  header nav,
+  header nav ul li,
+  .newsletter h1,
+  .newsletter form,
+  .boxes .box,
+  article.main_article,
+  aside.sidebar {
+    float: none !important;
+    text-align: center;
+    width: 100% !important;
+  }
+  .showcase h1 {
+    margin-top: 40px !important;
+  }
+  .newsletter form input[type="email"],
+  .quote .input_group input,
+  .quote .input_group textarea {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .newsletter button,
+  .quote button {
+    display: block;
+    width: 100%;
+  }
+}
